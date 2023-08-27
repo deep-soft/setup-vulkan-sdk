@@ -23,9 +23,10 @@ inputs:
 runs:
   using: "composite"
   steps: 
-    - uses: deep-soft/vsdevenv-shell@e87fcf2359929606ba32db358baef5ede4737aed
-    # - uses: deep-soft/vsdevenv-shell@v1
-    # - uses: deep-soft/vsdevenv-shellhttps://github.com/humbletim/vsdevenv-shell@e87fcf2359929606ba32db358baef5ede4737aed
+    - name: vsdevenv shell v2
+      uses: deep-soft/vsdevenv-shell@v2
+
+    # - uses: deep-soft/vsdevenv-shell@e87fcf2359929606ba32db358baef5ede4737aed
     #- name: vsdevenv shell v1
     #  uses: deep-soft/vsdevenv-shell@v1
 
